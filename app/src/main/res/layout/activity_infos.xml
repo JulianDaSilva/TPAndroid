@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/layoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tuning"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Roberto"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageTuning"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/tuning1"/>
+
+        <TextView
+            android:id="@+id/nintendo"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Nintendo 64" />
+
+        <ImageView
+            android:id="@+id/imageN64"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:src="@drawable/n64" />
+
+    </LinearLayout>
+</LinearLayout>

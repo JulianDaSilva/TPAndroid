@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.epsi.b3.TPAndroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".TPAndroid"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Application pour le TP Android de monsieur Nintendo 64 !"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivityTP" />
+        <activity android:name=".InformationsActivity" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".ListeProduitsActivity" />
+    </application>
+
+</manifest>
