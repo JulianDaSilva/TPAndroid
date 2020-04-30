@@ -5,7 +5,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-public class MainActivityTP extends TPAndroidActivity implements View.OnClickListener {
+public class MainActivity extends TPAndroidActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class MainActivityTP extends TPAndroidActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.buttonInfos:
-                InformationsActivity.display(MainActivityTP.this);
+                InformationsActivity.display(MainActivity.this);
                 break;
         }
     }
